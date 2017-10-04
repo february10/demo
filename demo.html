@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DEMO HTML</title>
+    <style media="screen">
+    p{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(15, 5, 19);
+    }
+    .main {
+        background-color: rgb(74, 139, 236)
+        width: 380px;
+        height: 200px;
+        position: absolute;
+      }
+      .left {
+        margin-right: 4px;
+        float: left;
+        margin-left: 3px;
+
+      }
+      .right {
+        float: right;
+
+      }
+      .btnCheck {
+        color:#fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 14px;
+        background:#288ad6;
+        border: solid 1px #288ad6;
+        margin-right: 9px;
+        border-radius: 4px;
+        line-height:30px;
+        height: 32px;
+
+
+
+      }
+      select {
+        border: 1px solid #eee;
+        border-radius: 3px;
+        background: #fff;
+        height:30px;
+
+      }
+      .boxSearch {
+        border-radius: 4px;
+        height: 25px;
+       }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <p style="text-indent:5px;">Đóng tiền trả góp</p>
+      <div class="left">
+        <select class="opt" name="opt">
+            <option value=""> Chọn công ty</option>
+            <option value="">AMS</option>
+            <option value="">FECredit</option>
+        </select>
+        <input type="text" name="" placeholder="Nhập mã hợp đồng" value="" style="margin:0px;" class="boxSearch">
+      </div>
+      <div class="right">
+          <button type="button" name="button" class="btnCheck">Kiểm tra</button>
+      </div>
+    </div>
+  </body>
+</html>
